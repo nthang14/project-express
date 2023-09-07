@@ -1,7 +1,7 @@
 class NewsController {
   // [get] /news
   index(req, res) {
-    res.send({ title: 'new' })
+    res.send({ title: 'new', id: 1 })
   }
   // [get] /news/:id
   detail(req, res) {
